@@ -1,0 +1,37 @@
+.ContactForm {
+  text-align: center;
+}
+
+.inputLabel {
+  /* display: block; */
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.inputLabel input {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+.inputLabel input:focus {
+  border-color: #1f1fac;
+}
+
+.formButton {
+  padding: 10px 20px;
+  border: 1px solid #1f1fac;
+  border-radius: 5px;
+  background-color: #4242e5;
+  color: aliceblue;
+  cursor: pointer;
+  min-width: 120px;
+  font-size: 16px;
+
+  transition: background-color 0.2s ease-in-out;
+}
+
+.formButton:hover {
+  background-color: #2e2e9a;
+}

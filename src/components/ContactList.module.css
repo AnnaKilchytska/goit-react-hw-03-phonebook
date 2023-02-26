@@ -1,0 +1,43 @@
+.contactList {
+  /* width: 400px; */
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+.contactListItem:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.contactListName,
+.contactListNumber {
+  display: inline-block;
+  min-width: 150px;
+  border: 1px solid #1f1fac;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-right: 10px;
+  line-height: 1.1;
+}
+
+.deleteButton {
+  font-family: inherit;
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #1f1fac;
+  border-radius: 5px;
+  background-color: #4242e5;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1.1;
+
+  transition: background-color 0.2s ease-in-out, border 0.2s ease-in-out;
+}
+
+.deleteButton:hover {
+  background-color: #fa556e;
+  border: 1px solid #fa556e;
+}

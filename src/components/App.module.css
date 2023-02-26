@@ -1,0 +1,9 @@
+.AppContainer {
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.AppTitle {
+  text-align: center;
+}

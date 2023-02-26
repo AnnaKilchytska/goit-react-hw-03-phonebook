@@ -1,0 +1,17 @@
+.filterContainer {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.filterContainer input {
+  width: 80%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.filterContainer input:focus {
+  border: 1px solid #1f1fac;
+}
