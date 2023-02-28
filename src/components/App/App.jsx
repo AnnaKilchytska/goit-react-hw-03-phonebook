@@ -1,10 +1,10 @@
 import { nanoid } from 'nanoid';
 
 import React, { Component } from 'react';
-import ContactForm from './ContactForm';
-import ContactList from './ContactList';
-import Filter from './Filter';
-import contacts from '../contacts.json';
+import ContactForm from '../ContactForm/ContactForm';
+import ContactList from '../ContactList/ContactList';
+import Filter from '../Filter/Filter';
+import contacts from '../../contacts.json';
 
 import css from './App.module.css';
 
@@ -17,8 +17,9 @@ class App extends Component {
   componentDidMount() {
     const savedContacts = localStorage.getItem('contacts');
 
-    if (contacts !== null) {
+    if (savedContacts !== null) {
       this.setState({ contacts: JSON.parse(savedContacts) });
+      return;
     }
 
     this.setState({ contacts: contacts });
